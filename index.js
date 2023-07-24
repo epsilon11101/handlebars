@@ -16,7 +16,7 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("home", {
     name: "Aaron Miranda",
-    title: "Node Course",
+    title: "HandleBars + Node",
   });
 });
 
@@ -24,7 +24,7 @@ app.get("/generic", (req, res) => {
   //   res.sendFile(__dirname + "/public/generic.html");
   res.render("generic", {
     name: "Aaron Miranda",
-    title: "Node Course",
+    title: "HandleBars + Node",
   });
 });
 
@@ -32,7 +32,7 @@ app.get("/elements", (req, res) => {
   //   app.sendFile(__dirname + "/public/elements.html");
   res.render("elements", {
     name: "Aaron Miranda",
-    title: "Node Course",
+    title: "HandleBars + Node",
   });
 });
 
